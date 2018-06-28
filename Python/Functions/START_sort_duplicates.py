@@ -2,14 +2,14 @@
 mylist = [2,3,1,3,5]   # Our inputs to the program
 has_duplicates = False # initialize as false (why?)
 
-# TODO: Sort 'myList' (Why do we sort first?)
-
+# Sort 'myList' (Why do we sort first?)
+mylist.sort()
 # TODO: Loop through 'mylist' with a for-Loop
-
-    # TODO: Check if adjacent elements of 'mylist' are the same
-
-        # TODO: if they are the same, set has_duplicates to True
-
-        # TODO: Exit out of the for-loop (no need to check rest of list)
-
+for index in range(len(mylist) - 1): # 0, 1, 2, 3
+    # Check if adjacent elements of 'mylist' are the same
+    if mylist[index] == mylist[index + 1]:
+        # if they are the same, set has_duplicates to True
+        has_duplicates = True
+        # Exit out of the for-loop (no need to check rest of list)
+        break
 print(has_duplicates) # Our outputs of the program

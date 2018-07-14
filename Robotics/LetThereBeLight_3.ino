@@ -1,4 +1,6 @@
 // Let There Be Light: Part 3
+// Source: Girls Who Code
+// https://github.com/GirlsFirst/SIP-2018/tree/master/U2-Applications/U2.1-Robotics/LetThereBeLight-Pt3
 
 int unit = 300;
 int pin = 10; // Make sure your circuit is using digital pin 10!
